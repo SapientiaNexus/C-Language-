@@ -4,6 +4,8 @@ int main()
     float height=6.0;
 printf("That person's age is %d and",age);
 printf(" his height is %.0f",height);
-return 0;
+    char grade='A';
+    int number=1;
+    printf("\nThe grade he obtained in English essay is %c%d",grade,number);
+    return 0;
 }
-# include <stdio.h>
