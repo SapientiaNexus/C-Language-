@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char name [80];
+    printf("Enter your name: ");
+    fgets(name,sizeof(name),stdin);
+    name[strlen(name)-1]='\0';
+    if(strlen(name)==0)
+    {
+        printf("You did not enter a name\n");
+    }
+    else
+    {
+        printf("Welcome %s\n", name);
+    }
+
+}
